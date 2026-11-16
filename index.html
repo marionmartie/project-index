@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#EFEFEF]">
+    <header>
+        <nav class="bg-white p-4 md:w-2/12 md:h-screen md:fixed md:top-0">
+            <div class="mb-8 flex justify-between items-center">
+                <h1 class="text-2xl font-bold">Project Index</h1>
+                <span class="">Close</span>
+            </div>
+
+            <div class="flex flex-col">
+                <a href="#published" class="my-1 bg-blue-400 rounded-sm p-1">
+                    <span class="bg-blue-400 text-sm px-2 py-1 rounded-sm inline-block ">01</span>
+                    <span>Published microsites</span>
+                </a>
+                <a href="#workflow" class="my-1">
+                    <span class="bg-blue-400 text-sm px-2 py-1 rounded-sm inline-block ">02</span>
+                    <span>Workflow</span>
+                </a>
+                <a href="#templates" class="my-1">
+                    <span class="bg-blue-400 text-sm px-2 py-1 rounded-sm inline-block ">03</span>
+                    <span>Templates (WIP)</span>
+                </a>
+                <a href="#components" class="my-1">
+                    <span class="bg-blue-400 text-sm px-2 py-1 rounded-sm inline-block ">04</span>
+                    <span>Components (WIP)</span>
+                </a>
+
+                <div class="mt-8 bg-gray-300 p-4 rounded-sm">
+                    <p>Ready to start your microsite?</p>
+                    <p>Talk to us and let's assess your requirements.</p>
+                    <a href="#contact-us"
+                        class="mt-4 text-white inline-block bg-blue-700 px-4 py-2 rounded-full"
+                        >Contact us</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="absolute md:inset-0 md:ps-8">
+        <!-- Hero -->
+        <div class="max-w-7xl ml-auto md:ps-22 px-4 pt-4">
+            <h2 class="text-3xl font-bold">Published microsites</h2>
+            <p>Browse published microsite to jump start your next project.</p>
+        </div>
+
+        <div class="max-w-7xl ml-auto md:ps-22 px-4 py-4">
+            <div class=" bg-white p-4 rounded-md">
+                <p class="mb-4 font-bold text-lg">Get ready to lift-off in three steps:</p>
+
+                <div class="grid md:grid-cols-3 gap-4">
+                    <div class="bg-gray-200 rounded-md p-4">
+                        <p class="rounded-sm bg-purple-400 px-2 py-1 inline-block">01</p>
+                        <p class="text-lg font-bold my-1">Select your template</p>
+                        <p>Start with a format that fits your content.</p>
+                    </div>
+
+                    <div class="bg-gray-200 rounded-md p-4">
+                        <p class="rounded-sm bg-blue-400 p-1 inline-block">02</p>
+                        <p class="text-lg font-bold">Plan your content</p>
+                        <p>Bring your story, copy, assets.</p>
+                    </div>
+
+                    <div class="bg-gray-200 rounded-md p-4">
+                        <p class="rounded-sm bg-blue-400 p-1 inline-block">03</p>
+                        <p class="text-lg font-bold">Submit your request for assessment</p>
+                        <p>Let's assess your requirements.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Published library -->
+        <div class="max-w-7xl ml-auto md:ps-22 px-4 pt-4">
+            <div class="mb-4">
+                <h2 class="text-2xl font-bold">Published library</h2>
+                <p>Head start your microsite with our previous projects:</p>
+            </div>
+
+            <div id="filters">
+
+            </div>
+            
+            <!-- Cards -->
+            <div class="grid md:grid-cols-2 gap-4">
+
+                <!-- Card -->
+                <div class="bg-white rounded-md">
+                    <div class="rounded-md p-4">
+                        <img src="https://placehold.net/default.png" class="w-full h-54 md:h-64 object-cover" alt="">
+                    </div>
+                    <div class="px-4 py-2">
+                        <!-- Pills -->
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-sm rounded-full bg-orange-300 px-2">Promotional</span>
+                        </div>
+
+                         <!-- Copy -->
+                        <h3 class="text-xl font-bold">Product spotlight</h3>
+                        
+                        <a href="#" class="text-blue-800 underline">Use this</a>
+                    </div>
+                </div>
+
+                <!-- Card -->
+                <div class="bg-white rounded-md">
+                    <div class="rounded-md p-4">
+                        <img src="https://placehold.net/default.png" class="w-full h-64 md:h-64 object-cover" alt="">
+                    </div>
+                    <div class="px-4 py-2">
+                        <!-- Pills -->
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-sm rounded-full bg-orange-300 px-2">Promotional</span>
+                        </div>
+
+                         <!-- Copy -->
+                        <h3 class="text-xl font-bold">Product spotlight</h3>
+                        
+                        <a href="#" class="text-blue-800 underline">Use this</a>
+                    </div>
+                </div>
+
+                <!-- Card -->
+                <div class="bg-white rounded-md">
+                    <div class="rounded-md p-4">
+                        <img src="https://placehold.net/default.png" class="w-full h-54 md:h-64 object-cover" alt="">
+                    </div>
+                    <div class="px-4 py-2">
+                        <!-- Pills -->
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-sm rounded-full bg-orange-300 px-2">Promotional</span>
+                        </div>
+
+                         <!-- Copy -->
+                        <h3 class="text-xl font-bold">Product spotlight</h3>
+                        
+                        <a href="#" class="text-blue-800 underline">Use this</a>
+                    </div>
+                </div>
+
+                <!-- Card -->
+                <div class="bg-white rounded-md">
+                    <div class="rounded-md p-4">
+                        <img src="https://placehold.net/default.png" class="w-full h-64 md:h-64 object-cover" alt="">
+                    </div>
+                    <div class="px-4 py-2">
+                        <!-- Pills -->
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-sm rounded-full bg-orange-300 px-2">Promotional</span>
+                        </div>
+
+                         <!-- Copy -->
+                        <h3 class="text-xl font-bold">Product spotlight</h3>
+                        
+                        <a href="#" class="text-blue-800 underline">Use this</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center my-8">
+                <a href="#" class="text-blue-800 underline">Browse all</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
